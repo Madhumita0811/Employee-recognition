@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Employee Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Employee Profile</h1>
+        <div class="section">
+            <form id="profile-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="department">Department:</label>
+                <input type="text" id="department" required>
+
+                <label for="job-title">Job Title:</label>
+                <input type="text" id="job-title" required>
+
+                <label for="skills">Skills (comma-separated):</label>
+                <input type="text" id="skills" required>
+
+                <button type="submit">Save Profile</button>
+            </form>
+        </div>
+        <div class="button-container">
+            <a href="index.html" class="button">Back to Home</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
